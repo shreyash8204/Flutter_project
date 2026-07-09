@@ -1,0 +1,28 @@
+name: to_do_list
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.3.0
+  flutter_svg: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets\svg\todo logo.svg
+  - assets\svg\add button.svg
+  - assets\svg\image.svg
+  - assets\svg\edit.svg
+  - assets\svg\delete.svg
+  - assets\Images\todo logo.png

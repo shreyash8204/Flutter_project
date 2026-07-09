@@ -1,0 +1,32 @@
+name: advance_ui
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.3.0
+  flutter_svg: ^2.2.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets\svg\card1_image.svg
+  - assets\svg\photo.svg
+  - assets\svg\card2_image.svg
+  - assets\svg\UI.svg
+  - assets\svg\visual.svg
+  - assets\svg\illustration.svg
+  - assets\svg\photo.svg
+  - assets\images\contact.png
+  - assets\images\youtube.png
+  - assets\svg\youtube_icon.svg
